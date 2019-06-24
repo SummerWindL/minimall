@@ -1,7 +1,11 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "test/databind/databind",
+    "test/render/list/listrender",
+    "test/render/condition/conditionrender",
+    "test/template/template"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",
@@ -19,7 +23,20 @@
       {
         "pagePath": "pages/logs/logs",
         "text": "日志"
+      },
+      {
+        "pagePath": "test/databind/databind",
+        "text": "databind"
+      },
+      {
+        "pagePath": "test/render/list/listrender",
+        "text": "listrender"
+      },
+      {
+        "pagePath": "test/render/condition/conditionrender",
+        "text": "conditionrender"
       }
+      
     ]
   },
   "networkTimeout": {
